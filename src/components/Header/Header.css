@@ -1,0 +1,63 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .7rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212; /* Optional: Add a background color for the header */
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red; /* Change color on hover */
+}
+
+.header_icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user_avatar {
+    font-size: 2rem;
+}
+
+/* Styles for Search Input and Button */
+.search_input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+    outline: none; /* Remove outline */
+    font-size: 1rem; /* Font size for the input */
+}
+
+.search_button {
+    padding: 0.5rem 1rem;
+    background-color: #ffcc00; /* Button color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    color: #121212; /* Text color for button */
+    font-size: 1rem; /* Font size for button */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.search_button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}

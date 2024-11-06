@@ -1,0 +1,58 @@
+.movie_list {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.list_title {
+    font-size: 1.75rem;
+    margin: 2rem 0;
+    text-align: center; /* Center the title */
+}
+
+.list_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem; /* Adds space between the cards */
+    justify-items: center; /* Center the cards horizontally */
+    padding: 0 2rem;
+}
+
+/* Card styling for the container */
+.cards {
+    width: 100%;
+    max-width: 200px; /* Set a maximum width for each card */
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cards:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.cards_img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #222;
+}
+
+.cards_overlay {
+    padding: 1rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.cards_title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.cards_runtime, .cards_description {
+    margin-bottom: 0.5rem;
+}
+
+.card_rating {
+    color: yellow;
+    margin-left: 0.5rem;
+}
